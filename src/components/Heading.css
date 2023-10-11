@@ -1,0 +1,14 @@
+.heading-container {
+  display: flex;
+  justify-content: center;
+}
+
+.heading {
+  top: 32px;
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42.26px;
+  color: #333333;
+  position: absolute;
+}

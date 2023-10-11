@@ -1,0 +1,36 @@
+.menu-container {
+  display: flex;
+  justify-content: center;
+}
+
+.menu {
+  position: absolute;
+  top: 130px;
+  display: flex;
+  justify-content: space-around;
+  width: 608px;
+}
+
+.menu-item {
+  width: 89px;
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17.07px;
+  display: flex;
+  justify-content: center;
+}
+
+.hr-container {
+  display: flex;
+  justify-content: center;
+}
+
+hr {
+  border: none;
+  height: 2px;
+  width: 608px;
+  background-color: #bdbdbd;
+  top: 166px;
+  position: absolute;
+}

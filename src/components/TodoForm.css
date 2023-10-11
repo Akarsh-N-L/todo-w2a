@@ -1,0 +1,71 @@
+.todo-form {
+  display: flex;
+  justify-content: center;
+  margin-top: 184px;
+}
+
+.todo-form-container {
+  width: 608px;
+}
+
+.todo-form-elements {
+  display: flex;
+  justify-content: space-between;
+}
+
+.todo-form-inp {
+  width: 476px;
+  height: 56px;
+  border-radius: 12px;
+  border: solid 1px #bdbdbd;
+  margin-top: 16px;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  color: #828282;
+  padding-left: 10px;
+}
+
+.todo-form-btn {
+  width: 109px;
+  margin-top: 16px;
+  height: 56px;
+  border: none;
+  border-radius: 12px;
+  background-color: #2f80ed;
+  font-size: 14px;
+  color: white;
+  font-family: Montserrat;
+  font-weight: 600;
+}
+
+.todo-items {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 18px;
+  color: #333333;
+  display: flex;
+  align-items: center;
+  width: 608px;
+  margin-top: 16px;
+}
+
+.todo-item-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 16px;
+}
+
+.todo-item-checkbox {
+  width: 24px;
+  height: 24px;
+  border-radius: 4px;
+  margin-right: 8px;
+}
+
+.todo-items.completed span {
+  text-decoration: line-through;
+  color: gray; /* Optionally, change text color for completed items */
+}

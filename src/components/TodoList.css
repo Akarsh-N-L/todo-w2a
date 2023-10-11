@@ -1,0 +1,21 @@
+.delete-all-container {
+  display: flex;
+  justify-content: flex-end;
+  width: 608px;
+}
+
+.delete-all-super-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.delete-all {
+  width: 124px;
+  height: 40px;
+  border-radius: 4px;
+  background-color: #eb5757;
+  color: white;
+  border: none;
+  margin-top: 16px;
+}
